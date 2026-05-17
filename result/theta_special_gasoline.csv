@@ -1,0 +1,3 @@
+﻿date,fuel_type,actual_delta,rule_delta,theta_i,valid_theta,reason_if_invalid
+2026-03-24,gasoline,1160,2089.83997562978,0.5550664230405633,True,
+2026-04-08,gasoline,420,133.48100704108984,3.1465150684000323,True,

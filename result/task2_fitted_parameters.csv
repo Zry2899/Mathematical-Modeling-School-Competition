@@ -1,0 +1,41 @@
+﻿parameter,value,method,note
+rho,0.7,set,Historical pressure decay coefficient.
+rho_A,0.7,set,Energy-security pressure decay coefficient.
+theta_1,1.0,set,Weight for import-price-gap energy pressure component.
+theta_2,1.0,set,Weight for processing-shortage energy pressure component.
+B_gasoline,202.2025145657473,fitted_p90,P90 of positive historical gasoline pressure.
+B_diesel,185.1383260211783,fitted_p90,P90 of positive historical diesel pressure.
+U_gasoline,358.5000000000001,fitted_p90,P90 of absolute historical gasoline adjustment.
+U_diesel,343.5000000000001,fitted_p90,P90 of absolute historical diesel adjustment.
+D_gasoline,419.00000000000006,fitted_p90,P90 of absolute change in gasoline adjustment.
+D_diesel,404.00000000000006,fitted_p90,P90 of absolute change in diesel adjustment.
+T_gasoline,379.4663323656841,fitted_p90,P90 of absolute theoretical gasoline adjustment; scale for transmission-deviation loss.
+T_diesel,365.26758432061257,fitted_p90,P90 of absolute theoretical diesel adjustment; scale for transmission-deviation loss.
+sigma_pi,0.01196069462394437,fitted_std,Standard deviation of historical CPI yoy.
+cpi_lower_target,0.02,set,Lower CPI bound; CPI below 2% is treated as deflation-pressure loss.
+tau,0.034876322962443584,fitted_p75,P75 of historical recursive energy-security pressure A_t.
+loss_scale_LC,0.0008811005906324264,historical_path_winsorized_rms,Component-level normalization scale for absolute consumer loss/reward; values are clipped at historical P95 before RMS.
+loss_scale_LF,0.2456382603684836,historical_path_winsorized_rms,Component-level normalization scale for firm-pressure loss; values are clipped at historical P95 before RMS.
+loss_scale_LV,0.47928612078477895,historical_path_winsorized_rms,Component-level normalization scale for volatility loss; values are clipped at historical P95 before RMS.
+loss_scale_LT,0.05618493838053785,historical_path_winsorized_rms,Component-level normalization scale for transmission-deviation loss; values are clipped at historical P95 before RMS.
+loss_scale_LE,0.005888081480476432,historical_path_winsorized_rms,Component-level normalization scale for energy-security loss; values are clipped at historical P95 before RMS.
+loss_scale_Lpi,1.1517991976677573,historical_path_winsorized_rms,Component-level normalization scale for CPI loss; values are clipped at historical P95 before RMS.
+loss_cap_LC,0.0025534365442541943,historical_path_p95,P95 clipping cap for absolute consumer loss/reward.
+loss_cap_LF,0.9250594377947075,historical_path_p95,P95 clipping cap for firm-pressure loss.
+loss_cap_LV,1.2215515026389496,historical_path_p95,P95 clipping cap for volatility loss.
+loss_cap_LT,0.17656600965702185,historical_path_p95,P95 clipping cap for transmission-deviation loss.
+loss_cap_LE,0.02150270407601872,historical_path_p95,P95 clipping cap for energy-security loss.
+loss_cap_Lpi,2.810768220519442,historical_path_p95,P95 clipping cap for CPI loss.
+beta0,-7.596967035481042e-05,fitted_ols,CPI transmission equation intercept.
+beta_gasoline,0.2859945052794092,fitted_ols,CPI transmission coefficient for gasoline adjustment shock.
+beta_diesel,-0.20358568971803254,fitted_ols,CPI transmission coefficient for diesel adjustment shock.
+beta_pi,0.9305286145970855,fitted_ols,CPI autoregressive coefficient.
+cpi_regression_r2,0.8438672031191161,diagnostic,OLS in-sample R2.
+cpi_regression_rmse,0.0047734386864528655,diagnostic,OLS in-sample RMSE.
+cpi_regression_n,106.0,diagnostic,Number of monthly observations in CPI regression.
+lambda_C,0.16666666666666666,baseline_policy_weight,Equal weight across all six welfare-loss terms.
+lambda_F,0.16666666666666666,baseline_policy_weight,Equal weight across all six welfare-loss terms.
+lambda_pi,0.16666666666666666,baseline_policy_weight,Equal weight across all six welfare-loss terms.
+lambda_V,0.16666666666666666,baseline_policy_weight,Equal weight across all six welfare-loss terms.
+lambda_E,0.16666666666666666,baseline_policy_weight,Equal weight across all six welfare-loss terms.
+lambda_T,0.16666666666666666,baseline_policy_weight,Equal weight across all six welfare-loss terms.

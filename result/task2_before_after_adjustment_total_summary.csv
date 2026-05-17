@@ -1,0 +1,3 @@
+﻿path,description,total_weighted_loss,mean_weighted_event_loss
+before_adjustment,"u = f, first-question predicted theoretical adjustment",52.71915569252317,0.23535337362733558
+after_adjustment,"u = alpha_hat * f, first-question prediction adjusted by task-2 alpha function",52.435278219195126,0.23408606347854968

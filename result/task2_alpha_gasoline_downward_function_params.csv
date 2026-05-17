@@ -1,0 +1,13 @@
+﻿parameter,value
+intercept,0.9812021116827795
+beta_abs_fg_log,0.06735110882370646
+beta_s_g,-0.01656392231980312
+beta_prev_u_g,-0.014859621763441171
+fg_abs_threshold,0.0
+abs_fg_log_center,5.286407536935191
+S_g_center,15.25615638306887
+prev_u_g_center,0.0
+metric_n,205.0
+metric_mae,0.0058337320316139835
+metric_rmse,0.026381139928966558
+metric_r2,0.7127590267917188

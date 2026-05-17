@@ -1,0 +1,3 @@
+﻿date,fuel_type,actual_delta,rule_delta,theta_i,valid_theta,reason_if_invalid
+2026-03-24,diesel,1115,2009.5017618453685,0.5548639076464763,True,
+2026-04-08,diesel,400,129.06650884233753,3.0991773434317027,True,

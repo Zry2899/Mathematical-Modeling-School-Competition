@@ -1,0 +1,17 @@
+﻿formula_variable,prepared_column,status,note,missing_event_rows,missing_monthly_rows
+"alpha_k,t","decision variable, not observed",to_optimize,Historical alpha columns are included only for backtest/reference.,,
+"f_k,t","f_gasoline, f_diesel",available,From final price model predicted adjustment.,,
+"u_k,t",decision variable; u_hist_* for historical actual,available_for_history,"Optimization should use u_k,t = alpha_k,t * f_k,t.",,
+"P_k,t-1","gasoline_price_before, diesel_price_before",available,Derived from domestic regulated price sequence.,,
+omega_k,"omega_gasoline, omega_diesel",available_with_assumption,Monthly gasoline/diesel apparent-consumption weights; Jan-Feb 2016 use 0.5/0.5 fallback.,,
+pi_m,cpi_yoy,available,"Stored as decimal, e.g. 0.018 means 1.8%.",1.0,0.0
+pi_target,cpi_target,available,Current data uses 0.03.,1.0,0.0
+Brent_t,brent_month_avg_usd_per_barrel,available,Monthly average Brent price.,1.0,0.0
+d_t,oil_import_dependency,available,crude_import_ton / (crude_production_ton + crude_import_ton).,1.0,0.0
+h_t,brent_pressure_h,available,"clip((Brent - 80) / 50, 0, 1).",1.0,0.0
+b_t,processing_shortage_b,available_after_ma12,First months can be missing because MA12 needs enough observations.,1.0,0.0
+Q_exp_t,not prepared,not_needed_current_formula,"The simplified formula uses imports, production, and processing; crude export is unavailable and not used.",,
+missing-value rules,clean input,applied,Drop 2016-01-14; cap historical backtest at 2024-12; fill crude output/processing Jan-Feb with same-year March; interpolate 2020-01 crude imports; MA12 uses min_periods=3.,,
+"beta_0,beta_g,beta_d,beta_pi",not estimated yet,still_needed_or_estimate,Needed if CPI loss uses a fitted CPI forecast equation.,,
+"lambda_C,lambda_F,lambda_pi,lambda_V,lambda_E",not data,set_by_model,Document suggests equal weights 0.2 as a baseline.,,
+"rho,rho_A,theta_1,theta_2",not data,set_by_model,"Document suggests rho=0.7, rho_A=0.7, theta_1=theta_2=1.",,

@@ -1,0 +1,22 @@
+﻿order,step,script,required
+1,Clean domestic events and oil-price windows,script/prepare_clean_data.py,True
+2,Estimate first-question oil-price weights,script/estimate_parameters.py,True
+3,Estimate structural price-adjustment parameters,script/estimate_profit_parameters.py,True
+4,Export first-question prediction comparison,script/export_final_prediction_compare.py,True
+5,Analyse price-transmission asymmetry,script/transmission_asymmetry_analysis.py,True
+6,Prepare task-2 event and monthly model data,script/prepare_task2_model_data.py,True
+7,Fit task-2 welfare-loss parameters,script/fit_task2_parameters.py,True
+8,Smoke-test task-2 welfare-loss function,script/task2_social_welfare_loss.py,True
+9,Analyse raw task-2 loss distribution,script/analyze_task2_raw_loss_distribution.py,True
+10,Plot raw task-2 loss histograms,script/plot_task2_raw_loss_histograms.py,True
+11,"Compare current, full-transmission, and optimal policies",script/compare_task2_policy_strategies.py,True
+12,Analyse alpha correlations,script/analyze_alpha_relationships.py,True
+13,Analyse alpha partial effects,script/analyze_alpha_partial_effects.py,True
+14,Fit gasoline upward alpha function,script/fit_gasoline_alpha_upward_function.py,True
+15,Fit diesel upward alpha function,script/fit_diesel_alpha_upward_function.py,True
+16,Fit downward alpha functions,script/fit_downward_alpha_functions.py,True
+17,Refit gasoline combined alpha function,script/evaluate_refit_gasoline_alpha_combined.py,True
+18,Refit diesel combined alpha function,script/evaluate_refit_diesel_alpha_combined.py,True
+19,Compare before/after alpha adjustment,script/compare_task2_before_after_adjustment.py,True
+20,Run task-2 sensitivity optimisations,script/optimize_task2_policy.py,True
+21,Extract task-3 simple rules and robustness checks,script/task3_extract_simple_rules_robustness.py,True

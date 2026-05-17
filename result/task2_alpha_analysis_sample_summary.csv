@@ -1,0 +1,3 @@
+﻿fuel,n_used,alpha_mean,alpha_median,alpha_std,alpha_min,alpha_max
+gasoline,176,0.9277272727272728,0.96,0.10322488374116302,0.32,1.0
+diesel,175,0.9285142857142857,0.95,0.08246259041367783,0.43,1.0

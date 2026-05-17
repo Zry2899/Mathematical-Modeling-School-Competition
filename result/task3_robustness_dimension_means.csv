@@ -1,0 +1,61 @@
+﻿scenario,scenario_cn,strategy,dimension,loss_component,mean_loss,sum_loss,n
+baseline,基准波动,full_transmission,消费者福利,LC,0.025966479395662743,5.8164913846284545,224
+baseline,基准波动,full_transmission,企业与财政压力,LF,0.0,0.0,224
+baseline,基准波动,full_transmission,价格稳定性,LV,0.7354616068156311,164.74339992670136,224
+baseline,基准波动,full_transmission,宏观稳定性,Lpi,0.6060148147202244,64.84358517506402,107
+baseline,基准波动,full_transmission,能源安全与市场传导,LE + LT,0.36121186459261295,80.9114576687453,224
+baseline,基准波动,simple_rule,消费者福利,LC,-0.01092102036378302,-2.4463085614873963,224
+baseline,基准波动,simple_rule,企业与财政压力,LF,0.061153359254043194,13.698352472905675,224
+baseline,基准波动,simple_rule,价格稳定性,LV,0.683942225118418,153.20305842652562,224
+baseline,基准波动,simple_rule,宏观稳定性,Lpi,0.6104475753121061,65.31789055839536,107
+baseline,基准波动,simple_rule,能源安全与市场传导,LE + LT,0.3850428531253037,86.24959910006802,224
+low_volatility_075,低波动,full_transmission,消费者福利,LC,0.014382734347750354,3.2217324938960794,224
+low_volatility_075,低波动,full_transmission,企业与财政压力,LF,0.0,0.0,224
+low_volatility_075,低波动,full_transmission,价格稳定性,LV,0.46753430286954695,104.72768384277852,224
+low_volatility_075,低波动,full_transmission,宏观稳定性,Lpi,0.6178525776163529,66.11022580494976,107
+low_volatility_075,低波动,full_transmission,能源安全与市场传导,LE + LT,0.36121186459261295,80.9114576687453,224
+low_volatility_075,低波动,simple_rule,消费者福利,LC,-0.014765268356169703,-3.3074201117820134,224
+low_volatility_075,低波动,simple_rule,企业与财政压力,LF,0.037020885776999635,8.292678414047918,224
+low_volatility_075,低波动,simple_rule,价格稳定性,LV,0.43214477283437097,96.8004291148991,224
+low_volatility_075,低波动,simple_rule,宏观稳定性,Lpi,0.6261577260108827,66.99887668316445,107
+low_volatility_075,低波动,simple_rule,能源安全与市场传导,LE + LT,0.37758447827933483,84.578923134571,224
+high_volatility_125,高波动1.25倍,full_transmission,消费者福利,LC,0.053487000582205256,11.981088130413978,224
+high_volatility_125,高波动1.25倍,full_transmission,企业与财政压力,LF,0.0,0.0,224
+high_volatility_125,高波动1.25倍,full_transmission,价格稳定性,LV,1.0084640142833092,225.89593919946128,224
+high_volatility_125,高波动1.25倍,full_transmission,宏观稳定性,Lpi,0.5940659391160364,63.565055485415904,107
+high_volatility_125,高波动1.25倍,full_transmission,能源安全与市场传导,LE + LT,0.36121186459261295,80.9114576687453,224
+high_volatility_125,高波动1.25倍,simple_rule,消费者福利,LC,0.030520504322114877,6.836592968153733,224
+high_volatility_125,高波动1.25倍,simple_rule,企业与财政压力,LF,0.09166871771790638,20.53379276881103,224
+high_volatility_125,高波动1.25倍,simple_rule,价格稳定性,LV,0.9455279470515817,211.79826013955432,224
+high_volatility_125,高波动1.25倍,simple_rule,宏观稳定性,Lpi,0.6026966036771796,64.48853659345822,107
+high_volatility_125,高波动1.25倍,simple_rule,能源安全与市场传导,LE + LT,0.3963643681458969,88.7856184646809,224
+high_volatility_150,高波动1.50倍,full_transmission,消费者福利,LC,0.08656172293996225,19.389825938551546,224
+high_volatility_150,高波动1.50倍,full_transmission,企业与财政压力,LF,0.0,0.0,224
+high_volatility_150,高波动1.50倍,full_transmission,价格稳定性,LV,1.2366297387602694,277.00506148230033,224
+high_volatility_150,高波动1.50倍,full_transmission,宏观稳定性,Lpi,0.5839427070166499,62.48186965078153,107
+high_volatility_150,高波动1.50倍,full_transmission,能源安全与市场传导,LE + LT,0.36121186459261295,80.9114576687453,224
+high_volatility_150,高波动1.50倍,simple_rule,消费者福利,LC,0.07556598900072174,16.92678153616167,224
+high_volatility_150,高波动1.50倍,simple_rule,企业与财政压力,LF,0.1306227209714395,29.25948949760245,224
+high_volatility_150,高波动1.50倍,simple_rule,价格稳定性,LV,1.175003865137062,263.20086579070187,224
+high_volatility_150,高波动1.50倍,simple_rule,宏观稳定性,Lpi,0.597696385515519,63.953513250160526,107
+high_volatility_150,高波动1.50倍,simple_rule,能源安全与市场传导,LE + LT,0.40995183571074145,91.82921119920609,224
+extreme_volatility_200,极端波动2.00倍,full_transmission,消费者福利,LC,0.17061278897699847,38.21726473084766,224
+extreme_volatility_200,极端波动2.00倍,full_transmission,企业与财政压力,LF,0.0,0.0,224
+extreme_volatility_200,极端波动2.00倍,full_transmission,价格稳定性,LV,1.6032546230398232,359.1290355609204,224
+extreme_volatility_200,极端波动2.00倍,full_transmission,宏观稳定性,Lpi,0.5705213495329033,61.04578440002066,107
+extreme_volatility_200,极端波动2.00倍,full_transmission,能源安全与市场传导,LE + LT,0.36121186459261295,80.9114576687453,224
+extreme_volatility_200,极端波动2.00倍,simple_rule,消费者福利,LC,0.1602364545254711,35.89296581370553,224
+extreme_volatility_200,极端波动2.00倍,simple_rule,企业与财政压力,LF,0.22752501035131148,50.96560231869377,224
+extreme_volatility_200,极端波动2.00倍,simple_rule,价格稳定性,LV,1.537118884163564,344.31463005263834,224
+extreme_volatility_200,极端波动2.00倍,simple_rule,宏观稳定性,Lpi,0.5793422658898781,61.989622450216956,107
+extreme_volatility_200,极端波动2.00倍,simple_rule,能源安全与市场传导,LE + LT,0.4436920792831387,99.38702575942307,224
+upward_skew_volatility,上行波动偏强,full_transmission,消费者福利,LC,0.21462395583820623,48.0757661077582,224
+upward_skew_volatility,上行波动偏强,full_transmission,企业与财政压力,LF,0.0,0.0,224
+upward_skew_volatility,上行波动偏强,full_transmission,价格稳定性,LV,0.8809556225898845,197.3340594601341,224
+upward_skew_volatility,上行波动偏强,full_transmission,宏观稳定性,Lpi,0.6099868706679328,65.26859516146881,107
+upward_skew_volatility,上行波动偏强,full_transmission,能源安全与市场传导,LE + LT,0.36121186459261295,80.9114576687453,224
+upward_skew_volatility,上行波动偏强,simple_rule,消费者福利,LC,0.19949362062424894,44.68657101983176,224
+upward_skew_volatility,上行波动偏强,simple_rule,企业与财政压力,LF,0.13298550971563078,29.788754176301293,224
+upward_skew_volatility,上行波动偏强,simple_rule,价格稳定性,LV,0.8125135093413383,182.00302609245978,224
+upward_skew_volatility,上行波动偏强,simple_rule,宏观稳定性,Lpi,0.6139347358159051,65.69101673230185,107
+upward_skew_volatility,上行波动偏强,simple_rule,能源安全与市场传导,LE + LT,0.40796305335955685,91.38372395254073,224
