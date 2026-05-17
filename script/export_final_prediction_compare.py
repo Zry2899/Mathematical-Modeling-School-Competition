@@ -75,6 +75,7 @@ def main():
     diesel_pred = predict_diesel_price_adjustment(data)
 
     output = pd.DataFrame({
+        "date": data["date"],
         "gasoline_actual_change": data["gasoline_change"],
         "gasoline_predicted_change": gasoline_pred["pred_delta_no_special"],
         "diesel_actual_change": data["diesel_change"],
